@@ -1,0 +1,192 @@
+* {
+    margin-left: auto;
+    margin-right: auto;
+    flex: 20px;
+}
+
+header {
+    background: blue;
+    width: 800px;
+    color: rgb(243, 167, 167);
+    padding: 3px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    margin-left: 270px;
+    margin-top: -10px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+header ul li a {
+    color: white;
+    display: flex;
+    box-sizing: content-box;
+    text-align: center;
+    text-decoration: none;
+}
+
+main img {
+    width: 805px;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    border-top: 380px;
+    object-fit: initial;
+    object-position: initial;
+}
+
+section.articulo {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    overflow: hidden;
+    width: 700px;
+}
+
+h2 {
+    text-emphasis-style: black;
+    margin-top: -40px;
+}
+
+section.articulo p {
+    border-top: -90px;
+    font-size: 18px;
+    text-align: center;
+}
+
+section.articulo img {
+    padding: 35px;
+    margin-top: 40px;
+}
+
+section.toque {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    overflow: hidden;
+    width: 700px;
+}
+
+h3 {
+    text-emphasis-style: black;
+    margin-top: -40px;
+}
+
+section.toque p {
+    border-top: -90px;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+    height: 25px;
+}
+
+section.toque img {
+    padding: 35px;
+}
+
+section.historia {
+    background: maroon;
+    overflow: hidden;
+    margin-top: 30px;
+    width: 810px;
+}
+
+h4 {
+    color: green;
+    font-size: 20px;
+    text-align: center;
+    border-top: 30px;
+}
+
+.master div {
+    display: flex;
+    margin: 50px 50px;
+    width: 380px;
+    height: 100px;
+}
+
+.master div img {
+    width: 80px;
+}
+
+.master div p {
+    margin: 0 55px;
+    color: yellowgreen;
+    font-size: 16px;
+}
+
+.master1 div {
+    display: flex;
+    margin: 50px 50px;
+    width: 380px;
+    height: 100px;
+}
+
+.master1 div p {
+    margin: 0 55px;
+    color: yellowgreen;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22px;
+    border-top: -30px;
+    color: gold;
+}
+
+article img {
+    width: 810px;
+    height: 350px;
+}
+
+article p {
+    text-align: center;
+    font-size: 20px;
+    width: 690px;
+}
+
+footer {
+    background: lightslategrey;
+    width: 810px;
+    height: 350px;
+    margin-top: -25px;
+    color: white;
+    font-size: 18px;
+    margin-left: 270px;
+    flex-direction: column;
+}
+
+footer p {
+    margin: 20px;
+}
+
+body footer h4 {
+    border-top: 60px;
+}
+
+label div {
+    margin-left: 300px;
+}
+
+.final {
+    background: black;
+    color: white;
+    text-align: center;
+    width: 810px;
+    margin-top: -20px;
+}
+
+button:hover {
+    background: blue;
+    color: red;
+}
